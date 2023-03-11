@@ -1,0 +1,29 @@
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:26px;
+}
+.tarjeta{
+	border: 1px solid #C1B9B9;
+	border-radius: 10px;
+	width: 40%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.tarjeta img{
+	border-radius: 50px;
+	border: 1px solid #C1B9B9;
+	width: 100px;
+	height: 100px;
+	background-color: #DFD7D7;
+	margin:30px;
+}
+.tarjeta p{
+	margin:30px;
+}
