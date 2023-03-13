@@ -1,7 +1,27 @@
 
-
-
 h1{
 	size: 300px;
 	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.contenedor_izq{
+	width: 60%;
+	margin: 20px;
+}
+.contenedor_der{
+	width: 30%;
+}
+.contenedor_der img{
+	border-radius: 25px;
+	border: 1 px solid black;
+	width: 90%;
 }

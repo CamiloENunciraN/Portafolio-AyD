@@ -134,6 +134,7 @@ font-size:40px;
  float:left;
  margin:0;
  padding:0;
+
 }
 
 /* efecto al pasar el ratón por los items del menu */
@@ -158,6 +159,8 @@ font-size:40px;
  float:none;
  width: 300px;
  text-align: center;
+ border-bottom-color: #C8C5C5;
+ border-bottom: 1px solid;
 }
 
 /* enlaces de los items del menu desplegable */
