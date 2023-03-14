@@ -62,7 +62,7 @@
 .info{
 	background: #FBF0F0;
 	width: 80%;
-	height: 500px;
+	height: 499px;
 	border: 1px solid #C8C5C5;
 	border-radius: 10px;
 }
@@ -109,9 +109,13 @@ footer a:link{
  background-color:#FBF0F0;
  width: 500px;
  text-align: center;
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
 }
 #menu ul li h1{
-font-size:40px;
+font-size:42px;
 }
 /* enlaces del menu */
 
@@ -127,20 +131,11 @@ font-size:40px;
  letter-spacing:1px;
 }
 
-/* items del menu */
-
-#menu ul li {
- position:relative;
- float:left;
- margin:0;
- padding:0;
-
-}
-
 /* efecto al pasar el ratón por los items del menu */
 
 #menu ul li:hover {
- background:#FFC4C4;
+ background:#F90E0E;
+
 }
 /* menu desplegable */
 
@@ -159,10 +154,15 @@ font-size:40px;
  float:none;
  width: 300px;
  text-align: center;
- border-bottom-color: #C8C5C5;
  border-bottom: 1px solid;
+ border-left: 1px solid;
+ border-right: 1px solid;
+ color: #C8C5C5;
 }
+#menu ul ul li:hover {
+	border: 1px solid #857F7F;
 
+}
 /* enlaces de los items del menu desplegable */
 
 #menu ul ul a {
@@ -174,4 +174,14 @@ font-size:40px;
 
 #menu ul li:hover > ul {
  display:block;
+
+}
+/*menu responsive*/
+@media screen and (max-width: 700px){
+#menu ul li {
+ width: 300px;
+}
+#menu ul ul {
+left: 0%;
+}
 }
