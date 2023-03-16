@@ -1,11 +1,14 @@
 *{
 	margin: 0px;
 	padding: 0px;
-}
 
+}
+body{
+	height: 100vh;
+}
 .cabeza{
 	width: 100%;
-	height: 50px;
+	height: 6%;
 	background: red;
 	display: flex;
 	align-items: center;
@@ -14,7 +17,7 @@
 .data{
 	background: white;
 	width: 100%;
-	height: auto;
+	height: 88%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -62,7 +65,7 @@
 .info{
 	background: #FBF0F0;
 	width: 80%;
-	height: 499px;
+	height: 85%;
 	border: 1px solid #C8C5C5;
 	border-radius: 10px;
 }
@@ -77,10 +80,9 @@ iframe{
 footer{
 	background: white;
    	width: 100%;
-   	height: 50px;
+   	height: 6%;
    	display: flex;
    	align-items: center;
-
 }
 
 footer a{
@@ -93,6 +95,12 @@ footer a:link{
 }
 .vinculo{
 	cursor: pointer;
+}
+#proyecto{
+	background-color: #B0AAA6;
+}
+#proyecto:hover{
+	background-color: red;
 }
 /******************************************************/
 /* menu */
@@ -178,10 +186,31 @@ font-size:42px;
 }
 /*menu responsive*/
 @media screen and (max-width: 700px){
+
 #menu ul li {
  width: 300px;
 }
+
 #menu ul ul {
 left: 0%;
+}
+
+}
+@media screen and (max-width: 500px){
+
+.cabeza{
+	font-size: small;
+}
+
+footer a{
+	font-size: 12px;
+}
+
+#menu ul li {
+ width: 250px;
+}
+
+#menu ul ul li {
+ width: 250px;
 }
 }
