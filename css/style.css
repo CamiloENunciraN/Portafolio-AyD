@@ -97,9 +97,21 @@ footer a:link{
 	cursor: pointer;
 }
 #proyecto{
-	background-color: #B0AAA6;
+	background-color: #FFA348FF;
 }
 #proyecto:hover{
+	background-color: red;
+}
+#video{
+	background-color: #57E389FF;
+}
+#video:hover{
+	background-color: red;
+}
+#ficha{
+	background-color: #62A0EAFF;
+}
+#ficha:hover{
 	background-color: red;
 }
 /******************************************************/

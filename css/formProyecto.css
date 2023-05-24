@@ -28,7 +28,7 @@ align-items: center;
 text-align: center;
 flex-direction: column;
 cursor: pointer;
-background: #B0AAA6;
+background: #FFA348FF;
 }
 
 .contenedor_tema_boton:hover{
